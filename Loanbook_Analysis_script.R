@@ -24,8 +24,8 @@ library(party)
 
 #upload loanbook csv file and comlumn name dictionary
     ##Make sure to change the path names on the following lines
-loanbook <- read.csv("/Users/christopherhamblin/Desktop/R Projects/lending-club-loan-data/loan.csv")
-loanbookdictionary<-read_excel('/Users/christopherhamblin/Desktop/R Projects/lending-club-loan-data/LCDataDictionary.xlsx')
+loanbook <- read.csv("/Users/christopherhamblin/Desktop/R Projects/lending-club-loan-data/loan.csv") #!change path name
+loanbookdictionary<-read_excel('/Users/christopherhamblin/Desktop/R Projects/lending-club-loan-data/LCDataDictionary.xlsx') #change pathname
 
 ##Preliminary plotting and Summary Statistics
 str(loanbook)
